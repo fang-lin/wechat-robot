@@ -1,17 +1,17 @@
 {
-  "name": "wx-robot",
+  "name": "wechart-robot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "ssi": "selenium-standalone install",
     "sss": "selenium-standalone start",
-    "nw": "nightwatch"
+    "start": "nightwatch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "log4js": "^2.3.1",
     "nightwatch": "^0.9.16",
     "selenium-standalone": "^6.5.0",
     "selenium-webdriver": "^3.4.0"
